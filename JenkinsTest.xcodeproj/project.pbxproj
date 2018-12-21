@@ -12,7 +12,7 @@
 		E548A0DF21C7E69400D5494C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E548A0DD21C7E69400D5494C /* Main.storyboard */; };
 		E548A0E121C7E69500D5494C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E548A0E021C7E69500D5494C /* Assets.xcassets */; };
 		E548A0E421C7E69500D5494C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E548A0E221C7E69500D5494C /* LaunchScreen.storyboard */; };
-		E548A0EF21C7E69600D5494C /* JenkinsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548A0EE21C7E69600D5494C /* JenkinsTestTests.swift */; };
+		E570321121CD369E0067D950 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E570321021CD369E0067D950 /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +34,8 @@
 		E548A0E321C7E69500D5494C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E548A0E521C7E69500D5494C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E548A0EA21C7E69500D5494C /* JenkinsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E548A0EE21C7E69600D5494C /* JenkinsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsTestTests.swift; sourceTree = "<group>"; };
 		E548A0F021C7E69600D5494C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E570321021CD369E0067D950 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +90,8 @@
 		E548A0ED21C7E69600D5494C /* JenkinsTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				E548A0EE21C7E69600D5494C /* JenkinsTestTests.swift */,
 				E548A0F021C7E69600D5494C /* Info.plist */,
+				E570321021CD369E0067D950 /* ViewControllerTests.swift */,
 			);
 			path = JenkinsTestTests;
 			sourceTree = "<group>";
@@ -206,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E548A0EF21C7E69600D5494C /* JenkinsTestTests.swift in Sources */,
+				E570321121CD369E0067D950 /* ViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
