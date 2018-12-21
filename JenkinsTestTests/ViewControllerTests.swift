@@ -28,6 +28,5 @@ class ViewControllerTests: XCTestCase {
 
     func testViewController() {
         XCTAssertNotNil(viewController?.label)
-        XCTAssert(false)
     }
 }
