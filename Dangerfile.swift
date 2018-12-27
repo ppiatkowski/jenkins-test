@@ -1,4 +1,4 @@
-import Danger 
+import Danger
 let danger = Danger()
 
 let editedFiles = danger.git.modifiedFiles + danger.git.createdFiles
