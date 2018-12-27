@@ -25,7 +25,7 @@ pipeline {
     // }
     stage('Static analysis') {
       steps {
-        sh 'danger-swift ci'
+        sh '/usr/local/bin/danger-swift ci'
       }
     }
     stage('Build') {
